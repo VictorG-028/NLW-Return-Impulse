@@ -62,13 +62,14 @@ export function FeedbackForm() {
       )}
 
       <footer className="text-xs text-neutral-400">
-        Feito com ♥ por{" "}
+        _/\\/\__{"    "}
         <a
           className="underline underline-offset-2"
-          href="https://igorthiery.com.br"
+          href="https://github.com/VictorG-028/NLW-Return-Impulse"
         >
-          VictorG-028
+          Source code
         </a>
+        {"    "}_/\__/\___
       </footer>
     </div>
   );

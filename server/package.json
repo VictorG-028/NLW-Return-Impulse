@@ -2,12 +2,14 @@
   "name": "server",
   "version": "1.0.0",
   "description": "NLW Return - server",
-  "main": "server.ts",
+  "main": "server.js",
   "keywords": [],
   "author": "VictorG-028",
   "license": "ISC",
   "scripts": {
     "test": "jest",
+    "build": "npx tsc",
+    "start": "node dist/server.js",
     "dev": "ts-node-dev src/server.ts"
   },
   "devDependencies": {
